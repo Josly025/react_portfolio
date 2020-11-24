@@ -1,0 +1,141 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans&display=swap"); */
+* {
+  font-family: "Lusitana", serif;
+}
+
+.container-fluid {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: repeat(2, 350px);
+  grid-template-rows: repeat(3, 350px, auto-fit);
+  margin: none;
+  padding: 0;
+  box-sizing: border-box;
+  width: 1000px;
+  background: linear-gradient(rgb(14, 43, 82), rgb(7, 78, 57) 60%, #eee 100%);
+  background-image: linear-gradient(rgb(14, 43, 82), rgb(8, 78, 57));
+}
+
+/* boxes set for correct dimensions and approximate spacing */
+/*Back-ground color left for future reference to which box I would like
+specific pictures placed*/
+h1 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.616);
+  font-weight: bold;
+  text-shadow: 12px 12px 24px rgb(61, 110, 156);
+}
+.box1 {
+  /* background-color: gray; */
+  margin: 30px;
+  width: 350px;
+  height: 350px;
+  font-weight: 800;
+  font-display: ;
+}
+
+.box2 {
+  /* background: blueviolet; */
+  margin: 30px;
+  width: 350px;
+  height: 350px;
+  font-weight: 800;
+}
+
+.box3 {
+  /* background-color: orange; */
+  margin: 30px;
+  width: 350px;
+  height: 350px;
+  font-weight: 800;
+}
+
+.box4 {
+  margin: 30px;
+  width: 350px;
+  height: 350px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.box5 {
+  /*add image as background */
+  margin: 30px;
+  width: 350px;
+  height: 350px;
+  font-weight: 800;
+}
+
+#my-port {
+  font-family: "Lusitana", serif;
+  font-size: 55px;
+  margin: 75px;
+  margin-top: 100px;
+  font-color: white;
+  /* text-shadow: -1px 0 black, 0 1px white, 1px 0 white, 0 -1px black; */
+}
+/* button */
+.btn-new {
+  min-width: 20px;
+  min-height: 20px;
+  font-family: "Lusitana", serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.616);
+  background: grey;
+  background: linear-gradient(
+    75deg,
+    rgb(61, 110, 156) 10%,
+    /* rgb(92, 129, 118) 100% */ rgb(37, 48, 59) 90%
+  );
+  border: none;
+  /* border-radius: 1000px; */
+  border-radius: 0px;
+  box-shadow: 12px 12px 24px rgb(61, 110, 156);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  align-items: center;
+  margin: 25px;
+}
+
+.btn-new:before {
+  content: "";
+  border-radius: 750px;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  /* border: 6px solid #00ffcb; */
+  box-shadow: 0 0 60px rgba(14, 64, 110, 0.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.btn-new:hover {
+  font-family: "Lusitana", serif;
+  transition: 0.5s ease-in-out;
+  background: rgb(87, 119, 161);
+  color: #313133;
+}
+.btn-new a:after {
+  content: “\00bb”;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.btn-new:hover a {
+  padding-right: 25px;
+}
+.btn-new:hover a:after {
+  opacity: 1;
+  right: 0;
+}
