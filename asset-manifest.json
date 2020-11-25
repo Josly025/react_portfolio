@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc010370.chunk.css",
+    "main.js": "/static/js/main.3ae29406.chunk.js",
+    "main.js.map": "/static/js/main.3ae29406.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.317cf16b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.317cf16b.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.7a74ccb1.chunk.js": "/static/js/2.7a74ccb1.chunk.js",
+    "static/js/2.7a74ccb1.chunk.js.map": "/static/js/2.7a74ccb1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.cc010370.chunk.css.map": "/static/css/main.cc010370.chunk.css.map",
+    "static/js/2.7a74ccb1.chunk.js.LICENSE.txt": "/static/js/2.7a74ccb1.chunk.js.LICENSE.txt",
+    "static/media/Bio_image.e902c8ae.png": "/static/media/Bio_image.e902c8ae.png",
+    "static/media/EmployeeIndex.802181da.png": "/static/media/EmployeeIndex.802181da.png",
+    "static/media/background-image-1.45dde158.png": "/static/media/background-image-1.45dde158.png",
+    "static/media/desktop-screen.ee1cfc69.PNG": "/static/media/desktop-screen.ee1cfc69.PNG",
+    "static/media/password-gen.68102e60.png": "/static/media/password-gen.68102e60.png",
+    "static/media/plan-eat-arium.bc79b69c.png": "/static/media/plan-eat-arium.bc79b69c.png",
+    "static/media/weather_dah.0d6d3c90.png": "/static/media/weather_dah.0d6d3c90.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.317cf16b.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.7a74ccb1.chunk.js",
+    "static/css/main.cc010370.chunk.css",
+    "static/js/main.3ae29406.chunk.js"
+  ]
+}
