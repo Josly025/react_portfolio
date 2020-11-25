@@ -10,6 +10,7 @@ function Header() {
     <div>
       <Router>
         <NavTabs />
+        <Route exact path="/" component={About} />
         <Route exact path="/About" component={About} />
         <Route exact path="/Portfolio" component={Portfolio} />
         <Route path="/Contact" component={Contact} />

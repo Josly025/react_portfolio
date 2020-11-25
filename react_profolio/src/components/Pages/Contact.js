@@ -71,7 +71,7 @@ function Contact() {
         </div>
       </div>
 
-      <footer id="footer">
+      <footer id="footer ">
         <div class="card-footer container-fluid" width="device-width">
           <div class="card-body bg-dark shadow p-10 mb-5 bg-dark rounded">
             <h5 class="card-title text-light">Contact Information</h5>
